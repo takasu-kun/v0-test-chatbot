@@ -163,7 +163,7 @@ export default function ChatbotPage() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      content: "Hello! I'm powered by Cohere Command A. How can I assist you today?",
+      content: "Hello! How can I assist you today?",
       role: "assistant",
       timestamp: new Date(),
     },
@@ -258,7 +258,7 @@ export default function ChatbotPage() {
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4 rounded-t-lg text-white flex items-center gap-3">
           <MessageCircle className="w-6 h-6" />
           <div>
-            <h1 className="text-xl font-bold">Cohere AI Assistant</h1>
+            <h1 className="text-xl font-bold">Dan AI Assistant</h1>
             <p className="text-sm text-blue-100">Powered by Command A</p>
           </div>
         </div>
